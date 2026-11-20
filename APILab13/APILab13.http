@@ -1,0 +1,16 @@
+@APILab13_HostAddress = http://localhost:5057
+
+GET {{APILab13_HostAddress}}/api/Grades
+Accept: application/json
+
+###
+
+GET {{APILab13_HostAddress}}/api/Courses
+Accept: application/json
+
+###
+
+GET {{APILab13_HostAddress}}/api/StudentsCustom/GetEnrolledByCourse?courseName=Base
+Accept: application/json
+
+###

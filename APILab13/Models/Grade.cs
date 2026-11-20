@@ -3,11 +3,11 @@ namespace APILab13.Models
     public class Grade
     {
         public int GradeId { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         public bool isActive { get; set; }
 
-        public ICollection<Student> Students { get; set; }
+        public ICollection<Student> Students { get; set; } = new List<Student>();
     }
 }

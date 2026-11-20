@@ -7,10 +7,10 @@ namespace APILab13.Models
 
         //Llave foránea hacia Student
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public Student Student { get; set; } = null!;
 
         //Llave foránea hacia Course
         public int CourseId { get; set; }
-        public Course Course { get; set; }
+        public Course Course { get; set; } = null!;
     }
 }

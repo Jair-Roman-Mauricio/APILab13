@@ -8,13 +8,13 @@ namespace APILab13.DTO.Response
 
         //Datos del estudiante
         public int StudentId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
 
         //Datos del curso
         public int CourseId { get; set; }
-        public string CourseName { get; set; }
+        public string CourseName { get; set; } = string.Empty;
         public int Credit { get; set; }
     }
 }
